@@ -2,7 +2,7 @@
   "name": "react-souce-code",
   "version": "0.0.1",
   "description": "React 16.13.1 源码解读",
-  "main": "index.js",
+  "private": true,
   "authors": {
     "name": "Rookie Ming",
     "email": "dangliming@outlook.com"
