@@ -9,8 +9,6 @@ npm run dev
 npm run build
 ```
 
-For more details, please head VuePress's [documentation](https://v1.vuepress.vuejs.org/).
-
 ## 参考链接
 
 - [React官方中文文档](https://zh-hans.reactjs.org/)

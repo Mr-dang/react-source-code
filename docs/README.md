@@ -2,8 +2,8 @@
 home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: React 16.13.1 源码解读
-actionText: Quick Start →
-actionLink: /guide/
+actionText: 开始阅读
+actionLink: /start/
 features:
 - title: Feature 1 Title
   details: Feature 1 Description
