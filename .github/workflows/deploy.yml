@@ -20,9 +20,7 @@ jobs:
         npm run build
 
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@3.5.7
+      uses: peaceiris/actions-hugo@v2
       with:
-        ACCESS_TOKEN: ${{ secrets.DANG_REACT_SOURCE_CODE_TOKEN }}
-        BASE_BRANCH: master
-        BRANCH: gh-pages
-        FOLDER: docs/.vuepress/dist
+        github_token: ${{ secrets.DANG_REACT_SOURCE_CODE_TOKEN }}
+        publish_dir: ./docs/.vuepress/dist
