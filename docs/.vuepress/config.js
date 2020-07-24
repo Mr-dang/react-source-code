@@ -25,7 +25,7 @@ module.exports = {
     nav: [
       {
         text: 'Github',
-        link: 'https://v1.vuepress.vuejs.org'
+        link: 'https://github.com/Mr-dang/react-source-code'
       }
     ],
     sidebar: [
@@ -50,8 +50,11 @@ module.exports = {
         sidebarDepth: 2,
         collapsable: false,
         children: [
-          { title: 'ReactVersion', path: '/shared/ReactVersion' },
+          { title: 'version', path: '/shared/version' },
           { title: 'ReactSymbols', path: '/shared/ReactSymbols' },
+          { title: 'enqueueTask', path: '/shared/enqueueTask' },
+          { title: 'objectIs', path: '/shared/objectIs' },
+          { title: 'shallowEqual', path: '/shared/shallowEqual' },
         ]
       },
       {

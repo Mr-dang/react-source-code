@@ -1,1 +1,0 @@
-`invariant` 相当于 console.asset
