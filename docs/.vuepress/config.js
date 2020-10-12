@@ -1,7 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
-  base: '/react-souce-code/',
+  base: process.env.DEPLOY_PLATFORM === 'VERCEL' ? '' : '/react-souce-code/',
   title: 'React 16.13.1 源码解读',
   description: description,
   head: [
