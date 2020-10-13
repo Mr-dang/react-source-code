@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: https://unpkg.com/mrdangnpmimages@0.0.7/images/logo.svg
 tagline: React 16.13.1 源码解读
 actionText: 开始阅读
 actionLink: /start/
